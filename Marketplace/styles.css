@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Montserrat;
+}
+.header, .byline{
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.header{
+  font-size: 3vw;
+  color: #800080;
+    padding-top: 4vw;
+      padding-bottom: 3vw;
+}
+.byline{
+  font-size: 2vw;
+    padding-bottom: 6vw;
+}
+.profile-pic{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+  border-radius: 50%;
+}
+.col-sm-1{
+  margin-left: 8vw;
+}
+.col-sm-2{
+  margin-left: 20vw;
+}
+.col-sm-3{
+  margin-left: 12vw;
+}
+.home{
+  color: #800080;
+  border-color: #800080;
+  position: absolute;
+  right: 0;
+}
