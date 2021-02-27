@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Montserrat;
+}
+.header{
+  font-weight: bold;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3vw;
+  padding-top: 2vw;
+}
+.byline, .book{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2vw;
+  font-size: 2vw;
+}/*
+.gym{
+  padding-top: 4vw;
+}
+.gym-text{
+  font-family: Montserrat;
+  font-size: 1.5vw;
+  padding: 2.5vw;
+  position: absolute;
+  top: 30%;
+  left: 17%;
+}
+img{
+  position: absolute;
+  left: 10%;
+  height: 25%;
+  width: 25%;
+  top: 40%;
+}
+
+.col-sm-6{
+  margin-left: 1vw;
+}
