@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <script type="text/javascript">
+        document.getElementById("b1").style.display="none";
+        function getotp()
+        {
+            let otp=0;
+            for (let i=0; i<4; i++)
+            {
+               otp= Math.floor((Math.random()*10000) + 1);
+            }
+            document.write(otp);
+        }
+
+        function printotp()
+        {
+            document.write("Your OTP is ");
+            getotp();
+
+        }
+
+    </script>
+ </head>
+ <body style="background-color:#c8f1f0">
+       <center>
+               <h1 style="color:DarkSlateBlue;"><i>WELCOME ABODE TO UTTORANA!!</i></h1>
+               <h2 style="color: Teal">RECEIVE YOUR OTP HERE!</h2>
+               <input type="textarea" value="      ENTER YOUR NAME HERE " size="35" />
+              
+               <input type="" name="textarea" size="40"/> 
+               <div class="text-center">
+               <input type = "button" onclick = "printotp()" value = "Display">  
+               <input type="text"/>
+               </div>
+               <div class="flex-parent jc-center">
+               <button type="submit" style="color: DarkCyan"><b>Confirm</b></button>
+               <button type="submit" style="color: DarkCyan"><b>Cancel</b></button>
+               
+             
+               </div>
+               <img src="https://3p61km413puc12egej19zozt-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/Gate-Open.jpg" width="70%" height="50%">
+         </center>
+         
+    </body>
+</html>
