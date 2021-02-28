@@ -2,7 +2,7 @@
 for hackathon-spacejam
 
 Landing Page trial link: https://my.spline.design/utoranatrial2-175f489ec36335b631c03fc11004e84d/ </br>
-Video Link: https://photos.app.goo.gl/YbKheto8jDDSxR348
+Video Link: https://youtu.be/nlq0WGljDz4
 
 __Uttorana__
 Objective - To create a community- like collaborative environment mainly targeted towards apartments and housing societies, with the following features:
